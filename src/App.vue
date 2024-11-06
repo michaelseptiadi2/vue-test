@@ -9,9 +9,6 @@ function hitWave(){
   formData.append("user", "cdrapi");
   fetch(url, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
     body: formData
   })
 }
