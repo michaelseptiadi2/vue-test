@@ -3,7 +3,7 @@ import { RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
 function hitWave(){
-  const url: RequestInfo | URL = "https://192.168.212.46:8089/api"
+  const url: RequestInfo | URL = "https://192.168.212.46:8089/cgi?"
   const formData = new FormData();
   formData.append("action", "challenge");
   formData.append("user", "cdrapi");
